@@ -1,0 +1,16 @@
+<head>
+  <meta charset="UTF-8">
+    <meta name="description" content="{{ meta.siteDescription }}">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+          {% if page.url == '/' %}
+            {{ meta.siteName }}
+          {% else %}
+            {{ title }}
+            {% if page.url != '/' %}
+              | {{ meta.siteName }}
+            {% endif %}
+          {% endif %}
+        </title>
+        <link rel="stylesheet" href="/css/style.css">
+        </head>

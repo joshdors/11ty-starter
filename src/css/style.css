@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply outline-offset-2;
+}
+
+/* Nav */
+
+.nav-link {
+    @apply block w-fit;
+}
+
+.nav-link-active {
+    @apply text-zinc-800;
+}

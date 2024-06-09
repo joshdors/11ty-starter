@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include 'partials/head.njk' %}
+    <body class="antialiased font-sans text-zinc-800 text-base font-normal leading-6">
+        {% include 'partials/nav.njk' %}
+        <main class="py-12 sm:py-16 px-6 md:px-12">
+            <div class="max-w-2xl mx-auto">
+                {{ content | safe }}
+            </div>
+        </main>
+        <script src="/index.js"></script>
+    </body>
+</html>
