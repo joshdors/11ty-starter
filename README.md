@@ -4,8 +4,8 @@ Bare-bones 11ty starter template using Tailwind CSS. This is a good starting poi
 
 ## Getting started
 
-Run `npm install` to install depencies. Then `npm start` to build your static website for local development. The site will be live at: http://localhost:8080.
+Run `npm i` to install depencies and `npm start` to build your static website for local development. The site will be live at: http://localhost:8080.
 
 ## Deploying the site
 
-If you would like to deply to Netlify, set build directory to `site` and use build command `npm run build`.
+If you would like to deploy your website to Netlify, set **publish directory** to `site` and **build command** to `npm run build`.

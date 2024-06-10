@@ -13,5 +13,11 @@
 }
 
 .nav-link-active {
-    @apply text-zinc-800;
+    @apply text-black;
+}
+
+/* Components */
+
+.btn {
+    @apply bg-blue-700 hover:bg-blue-600 focus:bg-blue-600 py-3 px-4 rounded-md text-white font-semibold inline-flex flex-row items-center gap-2;
 }

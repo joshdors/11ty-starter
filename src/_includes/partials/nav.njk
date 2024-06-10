@@ -1,10 +1,10 @@
 <nav class="sticky top-0">
     <div class="bg-white px-6 border-b border-zinc-200 shadow-sm">
-        <div class="max-w-2xl mx-auto">
+        <div class="max-w-xl mx-auto">
             <ul class="font-medium flex flex-row items-center gap-6 [&>li>a]:py-4 text-zinc-500">
                 {%- for link in collections.link -%}
                     <li>
-                        <a class="nav-link hover:text-zinc-800 transition" href="{{ link.url }}">{{ link.data.linktitle }}</a>
+                        <a class="nav-link hover:text-black transition" href="{{ link.url }}">{{ link.data.linktitle }}</a>
                     </li>
                 {%- endfor -%}
             </ul>
